@@ -29,6 +29,7 @@
 1.11. Introdução ao Postman
 1.12. Conhecendo o projeto do Workshop
 
+
 ### 2. Criando uma API RESTful
 > 2.1. Criando o projeto
 2.2. Modelando nosso primeiro recurso
