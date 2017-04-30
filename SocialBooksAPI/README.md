@@ -16,7 +16,7 @@
 
 
 ### 1. Introdução
-1.1. Introdução ao Workshop
+> 1.1. Introdução ao Workshop
 1.2. Introdução ao REST
 1.3. Introdução ao protocolo HTTP
 1.4. Mensagens e Respostas HTTP
@@ -30,7 +30,7 @@
 1.12. Conhecendo o projeto do Workshop
 
 ### 2. Criando uma API RESTful
-2.1. Criando o projeto
+> 2.1. Criando o projeto
 2.2. Modelando nosso primeiro recurso
 2.3. Criando uma representação para o recurso Livro
 2.4. Utilizando a anotação @JsonInclude
@@ -52,11 +52,11 @@
 2.20. Negociação de conteúdos com Media Type
 
 ### 3. Refinando a API
-3.1. Adicionando cache
+> 3.1. Adicionando cache
 3.2. Autenticação com Spring Security
 
 ### 4. Consumindo nossa API
-4.1. Automatizando testes com Postman
+> 4.1. Automatizando testes com Postman
 4.2. Cliente Java
 4.3. Evoluindo nosso cliente Java
 4.4. Finalizando nosso cliente Java
