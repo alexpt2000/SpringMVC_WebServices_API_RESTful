@@ -17,17 +17,17 @@
 
 ### 1. Introdução
 > 1.1. Introdução ao Workshop
-1.2. Introdução ao REST
-1.3. Introdução ao protocolo HTTP
-1.4. Mensagens e Respostas HTTP
-1.5. Representações e o formato JSON
-1.6. Modelo de maturidade Richardson
-1.7. Ambiente de Desenvolvimento
-1.8. Introdução ao Maven
-1.9. Spring Boot
-1.10. APIs RESTful com Spring MVC
-1.11. Introdução ao Postman
-1.12. Conhecendo o projeto do Workshop
+> 1.2. Introdução ao REST
+> 1.3. Introdução ao protocolo HTTP
+> 1.4. Mensagens e Respostas HTTP
+> 1.5. Representações e o formato JSON
+> 1.6. Modelo de maturidade Richardson
+> 1.7. Ambiente de Desenvolvimento
+> 1.8. Introdução ao Maven
+> 1.9. Spring Boot
+> 1.10. APIs RESTful com Spring MVC
+> 1.11. Introdução ao Postman
+> 1.12. Conhecendo o projeto do Workshop
 
 
 ### 2. Criando uma API RESTful
