@@ -4,25 +4,26 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.algaworks.socialbooks.domain.Livro;
+import com.algaworks.socialbooks.repository.LivrosRepository;
 
 @RestController // RestController e a notacao para Rest enquanto Controller e
 				// apenas para MVC
 public class LivrosResources {
+	
+	@Autowired
+	LivrosRepository livrosRepository;
 
 	@RequestMapping(value = "/livros", method = RequestMethod.GET)
 	public List<Livro> listar() {
 
-		Livro l1 = new Livro("Rest Aplicado");
-		Livro l2 = new Livro("Git passo-a-passo");
 
-		Livro[] livros = { l1, l2 }; // Vector - Conectando mais de uma lista
-
-		return Arrays.asList(livros);
+		return livrosRepository.findAll();
 	}
 
 }
